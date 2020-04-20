@@ -2,13 +2,12 @@
 
 ## Tasks
 
-### Create a new Rails project
+### Clone the existing Rails project
 
-Within the `tyson` repository, under `tyson/free_books`, create a new Rails application, according to the following requirements:
+Go to [sharesight/tyson](https://github.com/sharesight/tyson) and clone the repo to your local environment.
 
- * Rails 5, latest version
- * use `postgreql` or `mysql`
- * no coffee-script
+rake db:create
+git checkout -b my_free_books_solution
 
 ### Story 1: Let anyone browse and read books
 
