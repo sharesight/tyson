@@ -6,8 +6,18 @@
 
 Go to [sharesight/tyson](https://github.com/sharesight/tyson) and clone the repo to your local environment.
 
+```sh
+# create development and test databases (in sqlite3)
 rake db:create
+
+# run the tests
+rake test
+
+# create a new branch for your additions
 git checkout -b my_free_books_solution
+```
+
+Start the Rails server and sign up. If you see a page with "Hello, Your Name" you are all set up!
 
 ### Story 1: Let anyone browse and read books
 
