@@ -9,6 +9,6 @@ end
 
 # and using it like this, what's the output here?:
 my = MyClass.new
-my.calculate(1,2)
+my.calculate(1, 2)
 puts my.sum
 # output:
