@@ -40,7 +40,7 @@
     * how much effort would it be to provide the functionality as an API?
     * other optimisations you can think of?
 
-## Recommended order of Ruby and Rails tasks:
+## Recommended order of Ruby and Rails questions:
 
  * [ruby/and.rb](https://github.com/sharesight/tyson/blob/master/ruby/and.rb)
  * [ruby/assignment.rb](https://github.com/sharesight/tyson/blob/master/ruby/assignment.rb)
