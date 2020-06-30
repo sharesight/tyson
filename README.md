@@ -1,22 +1,25 @@
-# Tyson
+# Tyson Agenda
 
-## Warm-Up
+## 1. Introduction
 
- * Ruby and Rails questions [10 min]
+## 2. Warm-Up
 
-## Free Books project
+ * 2.1 Ruby and Rails questions [10 min]
 
- * Introduction [5 min]
+## 3. Free Books project
 
- * Stories [40 min]
+ * 3.1 Introduction [5 min]
+
+ * 3.2 Stories [40 min]
     * story 1: browse books [15 min]
     * story 2: create new books [15 min]
     * story 3: edit books [15 min]
 
- * Discussion [20 min]
-    * run tests
+ * 3.3 Discussion [20 min]
+    * click around
     * review code
     * review git history
+    * which compromises/shortcuts did you take?
     * would you change anything in regard to performance?
     * would you change anything in regard to security?
 
