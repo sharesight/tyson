@@ -35,7 +35,7 @@ Start the Rails server and sign up. If you see a page with "Hello, Your Name" yo
 Any user shall be able to see a **list of available books** in our store. Books have a **title** and some **content**. The **list of books** (the store's front page) is alphabetically **sorted by title**, and shows the title only. If you click on the title you should see a **detail page** with the book's title and content.
 
 **Hint**:
-This story is about general Rails models and controllers. Please provide an initial set of books using _seeds_.
+This story is about general Rails models (plus migrations) and controllers. Please provide an initial set of books using _seeds_.
 
 
 ### Story 2: Let authors write new books (15 min)
