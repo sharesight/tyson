@@ -31,15 +31,17 @@ Start the Rails server and sign up. If you see a page with "Hello, Your Name" yo
 
 ### Story 1: Let anyone browse and read books (10 min)
 
+**Requirements**:
 Any user shall be able to see a **list of available books** in our store. Books have a **title** and some **content**. The **list of books** (the store's front page) is alphabetically **sorted by title**, and shows the title only. If you click on the title you should see a **detail page** with the book's title and content.
 
 **Hint**:
-This story is about general Rails models and controllers. Please provide an initial set of books using _seeds_. You don't need to worry about styles and layout (but feel free to do so).
+This story is about general Rails models and controllers. Please provide an initial set of books using _seeds_.
 
 
 ### Story 2: Let authors write new books (15 min)
 
-Provide a form to add a new book, with title and content. For any logged in user.
+**Requirements**:
+Any (logged in) user shall be able to **add more books**. The link to do so shall be **visible on the store's front page** (we want to see many people writing books and sell them through our store later). Provide a **form to add a new book**, with **mandatory title** and maybe some content.
 
 **Hint**:
 This story is about forms and error handling. Check if a user is logged in.
@@ -47,7 +49,8 @@ This story is about forms and error handling. Check if a user is logged in.
 
 ### Story 3: Let authors edit their books (15 min)
 
-Provide a way to let authors edit the title and the content of their own books. Show author name in book list.
+**Requirements**:
+Provide a way to let authors **edit the title and the content** of their **own books**. Show author name in book list (not linked).
 
 **Hint**:
 This story is about access control.

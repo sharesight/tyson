@@ -14,7 +14,7 @@
 ## 3. Free Books project
 
  * 3.1 Introduction [5 min]
-    * basic Rails project
+    * basic Rails project (see [README](https://github.com/sharesight/tyson/blob/master/free_books/README.md))
     * user can already sign up
     * do not worry about styles and layout
     * do not worry about testing
