@@ -8,7 +8,7 @@
 
 ## 2. Warm-Up
 
- * 2.1 Ruby and Rails questions [15 min]
+ * 2.1 [Ruby and Rails questions](https://github.com/sharesight/tyson#recommended-order-of-ruby-and-rails-questions) [15 min]
     * see list below for recommended order
 
 ## 3. Free Books project
