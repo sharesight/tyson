@@ -4,11 +4,19 @@
 
 ## 2. Warm-Up
 
- * 2.1 Ruby and Rails questions [10 min]
+ * 2.1 Ruby and Rails questions [15 min]
 
 ## 3. Free Books project
 
  * 3.1 Introduction [5 min]
+    * basic Rails project
+    * user can already sign up
+    * do not worry about styles and layout
+    * do not worry about testing
+    * what we will be looking at/for
+        * overall approach
+        * simplicity and correctness
+        * have the requirements been met?
 
  * 3.2 Stories [40 min]
     * story 1: browse books [15 min]
@@ -19,9 +27,13 @@
     * click around
     * review code
     * review git history
-    * which compromises/shortcuts did you take?
+    * how would you test this?
+    * which assumptions/compromises/shortcuts did you take?
+    * would you take another approach without time limit?
     * would you change anything in regard to performance?
     * would you change anything in regard to security?
+    * how much effort would it be to provide the functionality as an API?
+    * other optimisations you can think of?
 
 ## Recommended order of tasks:
 
