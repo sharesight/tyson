@@ -2,9 +2,14 @@
 
 ## 1. Introduction
 
+ * agenda (plus times)
+ * Ruby 2.6.x installed
+ * GitHub account
+
 ## 2. Warm-Up
 
  * 2.1 Ruby and Rails questions [15 min]
+    * see list below for recommended order
 
 ## 3. Free Books project
 
@@ -35,7 +40,7 @@
     * how much effort would it be to provide the functionality as an API?
     * other optimisations you can think of?
 
-## Recommended order of tasks:
+## Recommended order of Ruby and Rails tasks:
 
  * [ruby/and.rb](https://github.com/sharesight/tyson/blob/master/ruby/and.rb)
  * [ruby/assignment.rb](https://github.com/sharesight/tyson/blob/master/ruby/assignment.rb)

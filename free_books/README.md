@@ -7,6 +7,14 @@
 Go to [sharesight/tyson](https://github.com/sharesight/tyson) and clone the repo to your local environment.
 
 ```sh
+# clone the project
+git clone https://github.com/sharesight/tyson.git
+
+# setup
+cd tyson/free_books
+gem install bundler
+bundle
+
 # create development and test databases (in sqlite3)
 rake db:create
 rake db:migrate
