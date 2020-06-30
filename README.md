@@ -23,7 +23,7 @@
         * simplicity and correctness
         * have the requirements been met?
 
- * 3.2 Stories [40 min]
+ * 3.2 Stories [45 min]
     * story 1: browse books [15 min]
     * story 2: create new books [15 min]
     * story 3: edit books [15 min]
