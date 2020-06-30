@@ -9,7 +9,7 @@ puts string && flag
 # because `string && flag` is executed first, its result is: false
 
 puts string and flag
-# output: string
+# output: 'test'
 # because `puts string` is executed first
 
 puts (string and flag)

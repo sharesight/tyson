@@ -15,10 +15,11 @@ namespace :newsletters do
 end
 
 # Do you see any problems here?
-# • missing :environment
-# • nil or false? for sent flag
-# • memory problem with loading all newsletters at once
-# • potential missing database index for sent flag
-# • potential N+1 problem when the mailer uses other associations
-# • sent flag not set
-# • mail send quotas (total sum in 24 hours, number of mails per second)
+• missing each (`...all.each`)
+• missing :environment
+• nil or false? for sent flag
+• memory problem with loading all newsletters at once
+• potential missing database index for sent flag
+• potential N+1 problem when the mailer uses other associations
+• sent flag not set
+• mail send quotas (total sum in 24 hours, number of mails per second)
