@@ -29,7 +29,7 @@ git checkout -b my_free_books_solution
 Start the Rails server and sign up. If you see a page with "Hello, Your Name" you are all set up!
 
 
-### Story 1: Let anyone browse and read books (10 min)
+### Story 1: Let anyone browse and read books (15 min)
 
 **Requirements**:
 1. Any user shall be able to see a **list of available books** in our store.  Books have a **title** and some **content**.
