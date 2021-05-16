@@ -16,6 +16,7 @@ end
 
 # Do you see any problems here?
 # • missing :environment
+# • missing each to trigger the block
 # • nil or false? for sent flag
 # • memory problem with loading all newsletters at once
 # • potential missing database index for sent flag
