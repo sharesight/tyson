@@ -1,4 +1,4 @@
-#  You have 2 strings:
+#  You have 2 variables:
 string = 'test'
 flag = false
 
