@@ -2,39 +2,60 @@
 
 ## Tasks
 
-### Create a new Rails project
+### Clone the existing Rails project
 
-Within the `tyson` repository, under `tyson/free_books`, create a new Rails application, according to the following requirements:
+Go to [sharesight/tyson](https://github.com/sharesight/tyson) and clone the repo to your local environment.
 
- * Rails 5, latest version
- * use `postgreql` or `mysql`
- * no coffee-script
+```sh
+# clone the project
+git clone https://github.com/sharesight/tyson.git
 
-### Story 1: Let anyone browse and read books
+# setup
+cd tyson/free_books
+gem install bundler
+bundle
 
-Books have a title and some content. The list of books (the store's front page) is alphabetically sorted by title, and shows the title only. If you click on the title you should see a new page with the book's title and content.
+# create development and test databases (in sqlite3)
+rake db:create
+rake db:migrate
 
-### Story 2: Let authors write new books
+# run the tests
+rake test
 
-Provide a form to add a new book, with title and content.
+# create a new branch for your additions
+git checkout -b my_free_books_solution
+```
 
-### Story 3: Let authors edit their books
+Start the Rails server and sign up. If you see a page with "Hello, Your Name" you are all set up!
 
-Provide a way to let authors edit the title and the content of their own books.
 
-### Story 4: Let authors decide if a book is readable or not
+### Story 1: Let anyone browse and read books (15 min)
 
-Add a book status. Only published books get listed on the front page.
+**Requirements**:
+1. Any user shall be able to see a **list of available books** in our store.  Books have a **title** and some **content**.
+2. The **list of books** (the store's front page) is alphabetically **sorted by title**, and shows the title only.
+3. If you click on the title you should see a **detail page** with the book's title and content.
 
-### Story 5: Don't let others read unpublished books
+**Hint**:
+This story is about general Rails MVC (plus migrations). Please provide an initial set of books using _seeds_.
 
-Since every book is available to read for everyone (authors want to give early access by sending urls around) we have to make sure that the book url is not guessable.
 
-### Story 6: Provide stats per book
+### Story 2: Let authors write new books (15 min)
 
-How often has each book been read, overall and in the last week?
+**Requirements**:
+1. Any (logged in) user shall be able to **add more books**.
+2. The link to do so shall be **visible on the store's front page** (we want to see many people writing books and sell them through our store later).
+3. Provide a **form to add a new book**, with **mandatory title** and maybe some content.
 
-### Non-Functional Requirements
+**Hint**:
+This story is about forms and error handling. Check if a user is logged in.
 
- * no layouts or styles (we love pure HTML)
- * user authentication based on sessions
+
+### Story 3: Let authors edit their books (15 min)
+
+**Requirements**:
+1. Provide a way to let authors **edit the title and the content** of their **own books**.
+2. Show **author name** in book list (not linked).
+
+**Hint**:
+This story is about access control.

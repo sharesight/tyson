@@ -10,6 +10,7 @@ Benchmark.bm(10) do |bm|
   end
   bm.report('<<') do
     100_000.times { b << 'a' }
-end end
+  end
+end
 
 # Which one is faster? Any idea why that is?
